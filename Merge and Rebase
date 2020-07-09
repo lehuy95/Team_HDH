@@ -1,7 +1,3 @@
-hiep
-Rebase: nếu muốn một history rõ ràng dễ nhìn, hay còn gọi là linear history, và tránh được trường có thêm các merge commit
-Merge: nếu muốn lưu vết cũng như bảo toàn được history của repo (vd: xem được commit này là từ branch nào,…)và tránh trường hợp rewrite lại tất cả các changes.
-
 So sánh Merged và Rebase
 
 - Tính năng merge và rebase của git đều là tích hợp những thay đổi code từ một nhánh này vào nhánh khác.
@@ -28,4 +24,3 @@ So sánh Merged và Rebase
 			|											 |
 			|											 |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------			
-master
