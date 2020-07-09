@@ -1,0 +1,26 @@
+So sánh Merged và Rebase
+
+- Tính năng merge và rebase của git đều là tích hợp những thay đổi code từ một nhánh này vào nhánh khác.
+- TUy nhiên cách thức merge và rebase hoạt động lại rất khác nhau.
+- Vậy chúng khác nhau ở đâu???
+
+														 |
+			|					REBASE						 |						MERGE		
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------										 
+1.Lịch sử commit	|-Gộp các commit từ nhánh này vào nhánh nhánh khác bằng xây dựng lại các commit base | - merge không thay đổi lịch sử commit(bảo toàn lịch sử commit).
+			|   kế thừa từ nhánh khác.								 |
+ 			|-Rebase viết lại toàn bộ lịch sử commit						 | - Tích hợp nhiều nhánh với master trong 1 lần merge
+-----------------------|----------------------------------------------------------------------------------	 |--------------------------------------------------------------------
+2.Thu gọn commit	|- Khi bạn lưu và đóng file chỉnh sửa commit lại, git sẽ thực hiện rebase dựa trên   |- Merge không loại bỏ được những commit k cần thiết	
+			|   những chỉnh sửa này. Việc loại bỏ những commit không đáng chú ý như này sẽ giúp	 |
+			|   cho lịch sử của nhánh chủ đề dễ hiểu, trong sáng hơn.				 |
+			|											 |
+3.			|											 |
+			|											 |							
+			|											 |
+			|											 | 
+			|											 |
+			|											 |
+			|											 |
+			|											 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------			
