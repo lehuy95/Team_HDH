@@ -1,0 +1,2 @@
+Rebase: nếu muốn một history rõ ràng dễ nhìn, hay còn gọi là linear history, và tránh được trường có thêm các merge commit
+Merge: nếu muốn lưu vết cũng như bảo toàn được history của repo (vd: xem được commit này là từ branch nào,…)và tránh trường hợp rewrite lại tất cả các changes.
